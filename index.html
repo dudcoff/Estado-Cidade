@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estado&Cidade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <form>
+        <div>
+            <div>
+                <label for="selecionaEstado">Estado</label>
+                <select name="selecionaEstado" id="selecionaEstado">
+                    <option value="0">--- Selecione ---</option>
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </select>
+            </div>
+            <div>
+                <label for="selecionaCidade">Cidade</label>
+                <select name="selecionaCidade" id="selecionaCidade" disabled>
+                    <option value="0">--- Selecione ---</option> 
+                </select>
+            </div>
+        </div>
+        <div id="exibeCidadeEstado" class="Texto"></div>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
