@@ -27,8 +27,8 @@ form {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    border:5px dotted #daa520; 
-    padding: 20px;
+    border:5px inset #daa520; 
+    padding: 40px;
 }
 
 select, label {
